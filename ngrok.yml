@@ -1,0 +1,6 @@
+server_addr: "ngrok.wccode.com:4443"
+trust_host_root_certs: true
+tunnels:
+  demo:
+    proto:
+      https: 8080
