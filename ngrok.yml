@@ -4,8 +4,7 @@ tunnels:
   demo:                                 # 应用名称
     proto:
       http: 8081                        # 本地服务端口  http
-      https: 8080                       # 本地服务端口  https
-      
+      https: 8080                       # 本地服务端口  https 
    test:                                # 应用名称
     proto:
       http: 8082                        # 本地服务端口  http
