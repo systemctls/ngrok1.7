@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ngrok1.7 使用指南
 
 
@@ -103,7 +102,8 @@ ngrok -config=ngrok.cfg start xxx
 ### 运行报错
 启动失败的话，加一下log文件看一下问题
 ```javascript
+
 .\ngrok -config ngrok.yml -log log.txt start demo
 ```
 解决不了的话留言哈
->>>>>>> 9306c68dbc73daf19e8c2afdeb40b05f9990675d
+
