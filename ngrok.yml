@@ -1,6 +1,11 @@
-server_addr: "ngrok.wccode.com:4443"
-trust_host_root_certs: true
-tunnels:
-  demo:
+server_addr: "ngrok.wccode.com:4443"    # 不能修改
+trust_host_root_certs: true             # https
+tunnels:                               
+  demo:                                 # 应用名称
     proto:
-      https: 8080
+      http: 8081                        # 本地服务端口  http
+      https: 8080                       # 本地服务端口  https
+      
+   test:                                # 应用名称
+    proto:
+      http: 8082                        # 本地服务端口  http
