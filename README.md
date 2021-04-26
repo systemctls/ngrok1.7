@@ -16,7 +16,7 @@
 > 1. 运行
 
 
-下载对应的客户端
+到对应文件夹下载对应的客户端
 ```
 Linux 平台 32 位系统：linux_386
 Linux 平台 64 位系统：linux_amd64
@@ -42,8 +42,9 @@ ngrok -config=ngrok.cfg start xxx
 直接双击运行
 
 #### 方法三
-添加全局变量，或者移动文件：百度一下
+添加全局变量，或者移动安装包文件、配置文件到system32， 之后任何地方都可使用  `ngrok -subdomain=demo 8080`
 
+文档地址：http://ngrok.cn/docs.html#upgrade-cli
 
 ### 运行报错
 启动失败的话，加一下log文件看一下问题
